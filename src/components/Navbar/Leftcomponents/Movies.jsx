@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Movies = () => {
   return (
-    <div className="cursor-pointer text-zinc-300 hover:text-white transition-colors">
+    <Link to="/movies" className="cursor-pointer text-zinc-300 hover:text-white transition-colors">
       Movies
-    </div>
+    </Link>
   );
 };
 
